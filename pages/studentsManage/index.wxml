@@ -1,0 +1,41 @@
+<!--pages/studentsManage/index.wxml-->
+<view class="manages">
+    <view class="list-head">
+        <view class="head-sort">
+            <text>学生列表</text>
+            <t-icon bindtap="sort" name="measurement" data-name="measurement" size="48rpx" />
+        </view>
+        <t-icon bindtap="userAdd" name="user-add" data-name="chat-add" size="48rpx" />
+    </view>
+    <view class="list-container">
+        <view class="list-item" wx:for="{{list}}">
+            <view class="item-left">
+                <t-avatar class="avatar" icon="user" size="large" bindtap="userAdd"/>
+            </view>
+            <view class="item-center">
+                <view>{{item.name}}</view>
+                <view>{{item.sex}}</view>
+                <view>{{item.birthday}}</view>
+            </view>
+            <view class="item-right">
+                <t-action-sheet id="t-action-sheet" bind:selected="handleSelected"  />
+                <t-button bind:tap="edit" block theme="primary">
+                    <t-icon bindtap="edit" name="chat-add" data-name="chat-add" size="48rpx" />
+                </t-button>
+            </view>
+        </view>
+    </view>
+    <t-popup visible="{{visible}}" bind:visible-change="onVisibleChange" placement="bottom">
+        <view class="block">
+            <t-cell title="范围" hover>
+                
+            </t-cell>
+            <t-cell title="时间" hover>
+                
+            </t-cell>
+            <t-cell title="行为类别" hover>
+                
+            </t-cell>
+        </view>
+    </t-popup>
+</view>

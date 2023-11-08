@@ -1,0 +1,30 @@
+/**index.wxss**/
+.student-text{
+  border: 1rpx solid #CCC;
+  padding: 20rpx;
+  margin: 0 30rpx;
+}
+.all-record-btn{
+  margin: 60rpx;
+}
+.output-container{
+  width: 100%;
+  padding: 20rpx;
+}
+.stutend-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 30rpx;
+  justify-content: space-between;
+}
+.stutend-item input{
+  flex: 1;
+  border-bottom: 1rpx solid #CCC;
+  margin-left: 10rpx;
+}
+.record-btn{
+  width: 100rpx;
+  padding: 20rpx !important;
+  margin-left: 20rpx;
+}

@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="student-text">请语音录入学生指定时间段的行为，包含姓名、行为类别、时间、具体的行为内容，例如：
+    王小明2023年11月8日19:00 至 21:00在客厅玩游戏
+  </view>
+  <button class="all-record-btn" bindtap="recordAll">语音录入</button>
+  <view class="output-container">
+    <view class="stutend-item">
+      <label for="name">姓名:</label>
+      <input id="name" type="text" disabled />
+      <button class="record-btn">重新录入</button>
+    </view>
+    <view class="stutend-item">
+      <label for="identity">身份:</label>
+      <input id="identity" type="text" disabled />
+      <button class="record-btn">重新录入</button>
+    </view>
+    <view class="stutend-item">
+      <label for="behavior-type">行为类别:</label>
+      <input id="behavior-type" type="text" disabled />
+      <button class="record-btn">重新录入</button>
+    </view>
+    <view class="stutend-item">
+      <label for="time">时间:</label>
+      <input id="time" type="text" disabled />
+      <button class="record-btn">重新录入</button>
+    </view>
+    <view class="stutend-item">
+      <label for="behavior">行为具体内容:</label>
+      <input id="behavior" type="text" disabled />
+      <button class="record-btn">重新录入</button>
+    </view>
+    
+  </view>
+</view>

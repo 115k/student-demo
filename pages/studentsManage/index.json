@@ -1,0 +1,12 @@
+{
+    "navigationBarTitleText": "学生管理页",
+  "component": true,
+  "usingComponents": {
+    "t-button": "tdesign-miniprogram/button/button",
+    "t-avatar": "tdesign-miniprogram/avatar/avatar",
+    "t-icon": "tdesign-miniprogram/icon/icon",
+    "t-action-sheet": "tdesign-miniprogram/action-sheet/action-sheet",
+    "t-popup": "tdesign-miniprogram/popup/popup",
+    "t-cell": "tdesign-miniprogram/cell/cell"
+  }
+}

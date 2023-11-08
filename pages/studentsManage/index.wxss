@@ -1,0 +1,40 @@
+/* pages/studentsManage/index.xml.wxss */
+.list-container{
+    margin: 60rpx 40rpx;
+}
+.list-head{
+    padding: 20rpx 40rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.head-sort{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20rpx;
+    border-radius: 16rpx;
+    background: #e5e2e2;
+}
+.item-center{
+    flex: 1;
+    margin: 0 20rpx;
+}
+
+
+.external-class-content {
+    color: #fff;
+    background-color: #0052d9;
+    font-weight: 400;
+}
+  .item-right{
+    width: 120rpx;
+  }
